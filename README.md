@@ -10,7 +10,7 @@ Spielerinnen werden in eine virtuelle Stadtkreuzung versetzt, die voller Müll i
 + **Unity Version: 2020.3.18f1**
 
 
-WHAT TO DO:
+**WHAT TO DO**
 
 Vom Himmel fällt Müll (kleine Cubes). Damit der Score steigt, müssen diese in die gleichfarbigen Mülltonnen entsorgt werden. Andernfalls sinkt der Score.
 
@@ -22,7 +22,7 @@ Um das Spiel zu verlassen, muss man einfach nur durch das Pinke Portal an der Kr
 
 
 
-USED SYNTAX:
+**USED SYNTAX**
 
 Array: trashFall_script (14)
 
