@@ -14,15 +14,14 @@ Spielerinnen werden in eine virtuelle Stadtkreuzung versetzt, die voller Müll i
 
 **WHAT TO DO**
 
+Scene: GameScene
+
 Vom Himmel fällt Müll (kleine Cubes). Damit der Score steigt, müssen diese in die gleichfarbigen Mülltonnen entsorgt werden. Andernfalls sinkt der Score.
 
 // Die MüllCubes müssen noch Draggable gemacht werden
 
 
 Um das Spiel zu verlassen, muss man einfach nur durch das Pinke Portal an der Kreuzungsecke gehen, dass sich direkt an einer grauen Hauswand befindet.
-
-
-
 
 
 
@@ -35,6 +34,19 @@ if/else: trigger_script (34-48)
 Methodendeklaration: trashFall_script (45)
 
 Methodenaufruf: trashFall_script (39)
+
+
+**SOUNDS**
+
+Atmos: Ist der Atmos_Sound. Er soll die Umgebung einer Kreuzung in einer Großstadt wiederspiegeln.
+
+Correct: Wenn der Müll richtig entsorgt wird, bekommt man dieses Signal
+
+Incorrect: Wenn der Müll falsch entsorgt wird, bekommt man dieses Signal
+
+Drop: Wird gegeben, wenn ein Objekt auf den Boden aufprallt.
+
+PickUp: Wird gegeben, wenn man ein Objekt aufhebt. (nicht umgesetzt)
 
 
 
