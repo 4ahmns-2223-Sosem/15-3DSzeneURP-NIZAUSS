@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trash1
+  - CollisionTag
+  - trash_blue
+  - trash_green
+  - trash_orange
   layers:
   - Default
   - TransparentFX
